@@ -19,7 +19,7 @@ public class TestBufferedBinCopy {
             while ((c = in.read()) != -1) {
                 out.write(c);
             }
-        }//
+        }
         catch (IOException e) {
             System.out.println("IOException: "+e.getMessage());
             e.printStackTrace();
